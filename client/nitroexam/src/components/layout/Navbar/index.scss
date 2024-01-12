@@ -1,0 +1,46 @@
+#navbar {
+    z-index: 2;
+    background-color: pink;
+    top: 0;
+    position: sticky;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: palevioletred;
+
+    .navbox {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navleft{
+        .ntr{
+            color: white;
+        }
+
+
+        }
+        .navmid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            gap: 20px;
+        }
+    }
+}
+
+.active {
+    color: white;
+}
+a {
+    font-size: 20px;
+    color: white;
+}
+a:hover {
+
+    color: darkorchid;
+}
